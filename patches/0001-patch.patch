@@ -1,0 +1,28 @@
+From d4eaf8e8ff67ed88af7e2ea6a573182e52d723b5 Mon Sep 17 00:00:00 2001
+From: quoctuan1998 <quoctuan1998@gmail.com>
+Date: Wed, 26 Dec 2018 11:22:47 +0700
+Subject: [PATCH] patch
+
+---
+ sources/Utils.cpp | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+
+diff --git a/sources/Utils.cpp b/sources/Utils.cpp
+index da4fa3a..c723c50 100644
+--- a/sources/Utils.cpp
++++ b/sources/Utils.cpp
+@@ -38,4 +38,9 @@ bool Utils::IsRectIntersectRect(Rect r1, Rect r2)
+ int Utils::Random(int min, int max)
+ {
+ 	return rand() % (max - min + 1) + min;
+-}
+\ No newline at end of file
++}
++
++intAdd(inta, intb)
++{
++	returna + b;
++}
+-- 
+2.17.0.windows.1
+
