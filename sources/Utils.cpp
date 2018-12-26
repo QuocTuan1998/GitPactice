@@ -39,8 +39,3 @@ int Utils::Random(int min, int max)
 {
 	return rand() % (max - min + 1) + min;
 }
-
-intAdd(inta, intb)
-{
-	returna + b;
-}
